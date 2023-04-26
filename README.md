@@ -1,10 +1,16 @@
-# Google map hackathon
-The goal of this project is to visualize the influential factors to climate change by using Google Map APIs. 
+## Google maps platform hackathon
+<img src="https://user-images.githubusercontent.com/36249982/234450831-8049945b-be03-4fcf-a05b-3e980f5a82af.jpg" width="1100" height="500" />
+The goal of this project is to visualize the influential factors to climate change by using Google Map APIs.
 
-## Prerequisites
+[Project Demo Link](https://devpost.com/software/influence-of-climate-change-to-toronto-city)
+
+### Prerequisites
 <!-- 1. [Docker](https://docs.docker.com/get-docker/) -->
 - [Node.js](https://nodejs.org/en/download/)  
 - Git
+
+### Tech Stack
+This project uses node.js for building the web application and collect data from Toronto Open Data. By utilizaing Google maps API and geoencoding API to show the climate change impact in City of Toronto.
 
 <!-- ## Running the Web Application
 1. Clone the source code from the following GitHub repository
@@ -34,6 +40,6 @@ $ docker stop <your_container_id>
 ``` -->
 
 
-## Reference
+### Reference
 - [Google Map APIs](https://developers.google.com/maps/documentation)
 - [Toronto Open Data](https://open.toronto.ca/)
